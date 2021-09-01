@@ -22,6 +22,11 @@ Clinical trial assistant: corporation sponsors a nueropsychiatric medicine study
 - php artisan serve
 - login with user: ajay@hotmail.com, password: password
 
+## Commands to prepare test database (MySql database setup required)
+- php artisan migrate:reset
+- php artisan migrate
+- php artisan db:seed
+
 ## Basic navigation
 - After login select sponsor -> lead to select study
 - select study -> will lead to select site
@@ -30,11 +35,6 @@ Clinical trial assistant: corporation sponsors a nueropsychiatric medicine study
 - select visit -> will lead to select scale (form)
 - select form -> will lead to actual form to fill in.
 
-
-## Commands to prepare test database
-- php artisan migrate:reset
-- php artisan migrate
-- php artisan db:seed
 
 ## Most used commands (quick ref)
 - php artisan make:model Study
